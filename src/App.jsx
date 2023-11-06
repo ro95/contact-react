@@ -1,9 +1,8 @@
-import Form from "./Components/Form";
+import Ticket from "./Components/ticket/Ticket";
 
 const App = () => (
-	<div className="contenaire">
-		<h1>Bouygues telecom entreprise plane</h1>
-		<Form />
+	<div>
+		<Ticket />
 	</div>
 );
 
