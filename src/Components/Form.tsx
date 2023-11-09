@@ -14,7 +14,7 @@ import Avatar from "@mui/material/Avatar";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import SendIcon from "@mui/icons-material/Send";
 import styles from "./form.module.scss";
-import logoImage from "/Users/rodolphleblanc/billet-avion-bte/src/assets/logo/digital-airline-ovale.png";
+import logoImage from "../assets/digital-airline-ovale.png";
 
 function Copyright(props: any) {
 	return (
