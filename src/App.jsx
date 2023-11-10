@@ -6,6 +6,7 @@ const App = () => (
 	<Router>
 		<Routes>
 			<Route path="/" element={<Form />} />
+			<Route path="/ticket" element={<Ticket />} />
 			{/* other routes */}
 		</Routes>
 	</Router>

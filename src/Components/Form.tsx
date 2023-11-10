@@ -15,6 +15,7 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import SendIcon from "@mui/icons-material/Send";
 import styles from "./form.module.scss";
 import logoImage from "../assets/digital-airline-ovale.png";
+import {useNavigate} from "react-router";
 
 function Copyright(props: any) {
 	return (
@@ -32,6 +33,7 @@ function Copyright(props: any) {
 const defaultTheme = createTheme();
 
 export default function SignUp() {
+	const navigate = useNavigate();
 	const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
 		const data = new FormData(event.currentTarget);
@@ -156,6 +158,9 @@ export default function SignUp() {
 							</Grid>
 						</Grid>
 						<Button
+							onClick={()=> navigate("/ticket", {state :{
+								firstname: "test", lastname: "test",
+								}}) }
 							className={styles.containerflexbutton}
 							size="medium"
 							type="submit"
