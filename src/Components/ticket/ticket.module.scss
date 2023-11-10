@@ -1,0 +1,187 @@
+$content_width: 85%;
+
+body {
+	background: #c5d8e6;
+	font-family: helvetica, arial;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+
+h1 {
+	color: #c5d8e6;
+	font-weight: 200;
+	font-size: 2.1em;
+	margin: 0px;
+}
+
+h2 {
+	color: #c5d8e6;
+	opacity: 0.5;
+	font-weight: 100;
+	font-size: 0.9em;
+	margin: 0px;
+}
+
+h3 {
+	color: #c5d8e6;
+	opacity: 0.8;
+	font-weight: 100;
+	font-size: 0.9em;
+	margin: 0px;
+}
+
+.cards_wrapper {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.card {
+	width: 320px;
+	border-radius: 20px;
+	background: #344451;
+	display: inline-block;
+	margin: 10px;
+
+	&_heading {
+		padding-top: 25px;
+
+		h2 {
+			text-align: center;
+		}
+	}
+
+	&_thumbnail {
+		min-height: 150px;
+		margin-top: -15px;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	&_trip {
+		text-align: center;
+		width: $content_width;
+		margin: 30px auto;
+		display: flex;
+
+		div {
+			display: inline-block;
+			height: 100%;
+			vertical-align: middle;
+
+			h1 {
+				margin: 0px;
+			}
+
+			h2 {
+				margin: 0px;
+				letter-spacing: 2px;
+			}
+
+			&.trip_from {
+				text-align: left;
+				width: 35%;
+
+				h2 {
+					padding-left: 2px;
+				}
+			}
+
+			&.trip_icon {
+				width: 30%;
+
+				img {
+					padding-top: 20px;
+					opacity: 1;
+					width: 25px;
+				}
+			}
+
+			&.trip_to {
+				text-align: right;
+				width: 35%;
+
+				h2 {
+					padding-right: 3px;
+				}
+			}
+		}
+	}
+
+	&_divider {
+		position: relative;
+		width: 100%;
+
+		.divider_left {
+			left: -15px;
+		}
+
+		.divider_hole {
+			position: absolute;
+			top: -12px;
+			padding: 0px;
+			height: 25px;
+			width: 25px;
+			border-radius: 100%;
+			background: #c5d8e6;
+		}
+
+		.divider {
+			width: $content_width;
+			margin: auto;
+			height: 2px;
+			background: linear-gradient(to right, #c5d8e6 50%, transparent 50%);
+			background-size: 10px 8px, 100% 2px;
+			opacity: 0.2;
+		}
+
+		.divider_right {
+			right: -15px;
+		}
+	}
+
+	&_seating {
+		width: $content_width;
+		margin: 30px auto;
+		display: flex;
+
+		div {
+			display: inline-block;
+			width: 50%;
+
+			&.seating_passenger {
+				text-align: left;
+			}
+
+			&.seating_seat {
+				text-align: right;
+			}
+		}
+	}
+
+	&_details {
+		width: $content_width;
+		margin: 30px auto;
+		display: flex;
+		padding-bottom: 30px;
+
+		div {
+			display: inline-block;
+			width: 33%;
+
+			&.details_flight {
+				text-align: left;
+			}
+
+			&.details_date {
+				text-align: center;
+			}
+
+			&.details_time {
+				text-align: right;
+			}
+		}
+	}
+}

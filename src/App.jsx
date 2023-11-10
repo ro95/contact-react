@@ -3,7 +3,7 @@ import Form from "./Components/Form";
 
 const App = () => (
 	<div>
-		<Form />
+		<Ticket />
 	</div>
 );
 
