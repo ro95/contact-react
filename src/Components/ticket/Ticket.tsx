@@ -58,7 +58,7 @@ const Ticket = () => {
 							</div>
 							<div className="box">
 								<small>Départ</small>
-								<strong>17:05b</strong>
+								<strong>17:05</strong>
 							</div>
 							<div className="box">
 								<small>Durée</small>
@@ -66,7 +66,7 @@ const Ticket = () => {
 							</div>
 							<div className="box">
 								<small>Arrival</small>
-								<strong>20:25</strong>
+								<strong>17:10</strong>
 							</div>
 						</div>
 					</section>
