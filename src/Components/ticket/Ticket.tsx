@@ -17,12 +17,12 @@ const Ticket = () => {
 					</header>
 					<section className="cities">
 						<div className="city">
-							<small>Milano</small>
-							<strong>LIN</strong>
+							<small>Atrium</small>
+							<strong>ATR</strong>
 						</div>
 						<div className="city">
-							<small>Paris</small>
-							<strong>ORY</strong>
+							<small>Arc de seine</small>
+							<strong>ARC</strong>
 						</div>
 						<svg className="airplane">
 							<use xlinkHref="#airplane" />
@@ -33,52 +33,52 @@ const Ticket = () => {
 							<div className="box">
 								<small>Terminal</small>
 								<strong>
-									<em>W</em>
+									<em>G</em>
 								</strong>
 							</div>
 							<div className="box">
-								<small>Gate</small>
+								<small>Porte</small>
 								<strong>
-									<em>C3</em>
+									<em>8</em>
 								</strong>
 							</div>
 							<div className="box">
-								<small>Seat</small>
-								<strong>14B</strong>
+								<small>Siège</small>
+								<strong>9</strong>
 							</div>
 							<div className="box">
 								<small>Class</small>
-								<strong>E</strong>
+								<strong>A</strong>
 							</div>
 						</div>
 						<div className="times">
 							<div className="box">
-								<small>Boarding</small>
-								<strong>19:50</strong>
+								<small>Embarquement</small>
+								<strong>19h30</strong>
 							</div>
 							<div className="box">
-								<small>Departure</small>
+								<small>Départ</small>
 								<strong>20:20</strong>
 							</div>
 							<div className="box">
-								<small>Duration</small>
-								<strong>01:10</strong>
+								<small>Durée</small>
+								<strong>05</strong>
 							</div>
 							<div className="box">
 								<small>Arrival</small>
-								<strong>21:30</strong>
+								<strong>20:25</strong>
 							</div>
 						</div>
 					</section>
 					<section className="strap">
 						<div className="box">
 							<div className="passenger">
-								<small>passenger</small>
+								<small>passagés</small>
 								<strong>Fabio Ottaviani</strong>
 							</div>
 							<div className="date">
 								<small>Date</small>
-								<strong>Tue, 15 march 2016</strong>
+								<strong>Mardi, 15 nov 2023</strong>
 							</div>
 						</div>
 						<svg className="qrcode">
