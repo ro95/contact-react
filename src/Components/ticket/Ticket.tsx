@@ -65,7 +65,7 @@ const Ticket = () => {
 								<strong>05</strong>
 							</div>
 							<div className="box">
-								<small>Arrival</small>
+								<small>Arrivée</small>
 								<strong>17:10</strong>
 							</div>
 						</div>
