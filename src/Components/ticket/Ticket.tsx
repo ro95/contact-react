@@ -8,7 +8,7 @@ const Ticket = () => {
 				<div className="boarding-pass">
 					<header>
 						<svg className="logo">
-							<use xlinkHref="#alitalia" />
+							<use xlinkHref="#" />
 						</svg>
 						<div className="flight">
 							<small>flight</small>
