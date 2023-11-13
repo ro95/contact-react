@@ -54,11 +54,11 @@ const Ticket = () => {
 						<div className="times">
 							<div className="box">
 								<small>Embarquement</small>
-								<strong>19h30</strong>
+								<strong>17h00</strong>
 							</div>
 							<div className="box">
 								<small>Départ</small>
-								<strong>20:20</strong>
+								<strong>17:05b</strong>
 							</div>
 							<div className="box">
 								<small>Durée</small>
