@@ -21,7 +21,7 @@ const Ticket = () => {
 							<strong>ATR</strong>
 						</div>
 						<div className="city">
-							<small>Arc de seine</small>
+							<small>ARCS-DE-SEINE</small>
 							<strong>ARC</strong>
 						</div>
 						<svg className="airplane">
@@ -47,7 +47,7 @@ const Ticket = () => {
 								<strong>9</strong>
 							</div>
 							<div className="box">
-								<small>Class</small>
+								<small>Classe</small>
 								<strong>A</strong>
 							</div>
 						</div>
@@ -74,11 +74,11 @@ const Ticket = () => {
 						<div className="box">
 							<div className="passenger">
 								<small>passagé</small>
-								<strong>Fabio Ottaviani</strong>
+								<strong>John Doe</strong>
 							</div>
 							<div className="date">
 								<small>Date</small>
-								<strong>Mardi, 15 nov 2023</strong>
+								<strong>Mercredi, 15 nov 2023</strong>
 							</div>
 						</div>
 						<svg className="qrcode">
