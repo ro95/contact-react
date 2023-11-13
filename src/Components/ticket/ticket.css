@@ -112,7 +112,7 @@ body {
 }
 .boarding-pass .infos {
 	display: flex;
-	border-top: 1px solid #99d298;
+	border-top: 1px solid #00263c;
 }
 .boarding-pass .infos .places,
 .boarding-pass .infos .times {
@@ -131,13 +131,13 @@ body {
 }
 .boarding-pass .infos .places {
 	background: #e2efe2;
-	border-right: 1px solid #99d298;
+	border-right: 1px solid #00263c;
 }
 .boarding-pass .infos .places small {
 	color: #97a1ad;
 }
 .boarding-pass .infos .places strong {
-	color: #239422;
+	color: #109db9;
 }
 .boarding-pass .infos .box {
 	padding: 10px 20px 10px;
@@ -150,7 +150,7 @@ body {
 .boarding-pass .strap {
 	clear: both;
 	position: relative;
-	border-top: 1px solid #99d298;
+	border-top: 1px solid #00263c;
 }
 .boarding-pass .strap::after {
 	content: "";

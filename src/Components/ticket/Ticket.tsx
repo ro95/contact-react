@@ -11,7 +11,7 @@ const Ticket = () => {
 							<use xlinkHref="#" />
 						</svg>
 						<div className="flight">
-							<small>flight</small>
+							<small>Vol</small>
 							<strong>AZ 356</strong>
 						</div>
 					</header>
@@ -73,7 +73,7 @@ const Ticket = () => {
 					<section className="strap">
 						<div className="box">
 							<div className="passenger">
-								<small>passagés</small>
+								<small>passagé</small>
 								<strong>Fabio Ottaviani</strong>
 							</div>
 							<div className="date">
