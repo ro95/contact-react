@@ -1,6 +1,6 @@
 import React from "react";
 import "./ticket.css";
-import Flight from "../Flight";
+import Flight from "./Flight";
 import {useSearchParams} from "react-router-dom";
 
 const Ticket = () => {
